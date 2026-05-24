@@ -4,7 +4,24 @@ aika/
 
 .env
 
-# Local PDF Storage backups (avoids uploading large testing files)
+# Local PDF St# Explicit Environment Sandboxes
+aikaUser1/
+.venv/
+env/
+venv/
+
+# Python Compilation Artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Production Uploads Storage (Never commit raw user data to Git)
+uploads/
+
+# Sensitive Environment Variables / Credentials
+.env
+*.envorage backups (avoids uploading large testing files)
 uploads/
 
 # Python caching mechanisms (compiled byte code)
