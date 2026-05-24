@@ -1,0 +1,22 @@
+
+aika/
+
+
+.env
+
+# Local PDF Storage backups (avoids uploading large testing files)
+uploads/
+
+# Python caching mechanisms (compiled byte code)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System files
+Thumbs.db
+.DS_Store
+
+# IDE and Editor configurations
+.vscode/
+.idea/

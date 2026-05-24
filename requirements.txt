@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+langchain
+langchain-groq  # <-- Add this for free Llama 3 access
+pypdf
+boto3
+python-dotenv
+faiss-cpu
+sentence-transformers
