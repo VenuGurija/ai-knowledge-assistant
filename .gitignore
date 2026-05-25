@@ -1,39 +1,29 @@
-
-aika/
-
-
-.env
-
-# Local PDF St# Explicit Environment Sandboxes
+# Explicit Virtual Environment Sandboxes (Isolate User 1 and User 2)
 aikaUser1/
+aikaUser2/
 .venv/
-env/
 venv/
+env/
 
-# Python Compilation Artifacts
+# Python Compilation & Caching Artifacts
 **/__pycache__/
 *.pyc
 *.pyo
 *.pyd
+.pytest_cache/
+.mypy_cache/
 
-# Local Production Uploads Storage (Never commit raw user data to Git)
+# Local Storage Layouts (Never commit raw user data to Git)
 uploads/
+data/
+vectors/
 
-# Sensitive Environment Variables / Credentials
+# Sensitive Environment Configurations / Variables
 .env
-*.envorage backups (avoids uploading large testing files)
-uploads/
+*.env
+.env.local
 
-# Python caching mechanisms (compiled byte code)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Operating System files
+# Operating System Leftovers
 Thumbs.db
+Desktop.ini
 .DS_Store
-
-# IDE and Editor configurations
-.vscode/
-.idea/
